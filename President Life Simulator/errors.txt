@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/ch_debug.rpy", line 18: end of line expected.
+    jump _do_error(0)
+                  ^
+
+Ren'Py Version: Ren'Py 7.3.2.320
+Sat Dec 07 15:20:27 2019

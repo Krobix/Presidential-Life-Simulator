@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/ch0.rpy", line 98, in script
+    jump jerry_leaves_ch0
+ScriptError: could not find label 'jerry_leaves_ch0'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/ch0.rpy", line 98, in script
+    jump jerry_leaves_ch0
+  File "Z:\home\brendon\renpy\renpy\ast.py", line 1695, in execute
+    rv = renpy.game.script.lookup(target)
+  File "Z:\home\brendon\renpy\renpy\script.py", line 894, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'jerry_leaves_ch0'.
+
+Windows-Vista-6.0.6002-SP2
+Ren'Py 7.3.2.320
+President Life Simulator 1.0
+Mon Dec 09 20:28:07 2019
